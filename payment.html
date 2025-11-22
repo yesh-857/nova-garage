@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment | Nova Garage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GA4 & GTM WILL GO HERE LATER -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-text">Nova Garage</div>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Collection</a>
+      <a href="cart.html">Cart</a>
+      <a href="payment.html" class="active">Payment</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-shell">
+  <div class="section-header" style="margin-top:24px;">
+    <div>
+      <h1 class="section-title">Secure demo checkout</h1>
+      <p class="section-sub">
+        Use this payment page only to test events in GA4 and GTM. No real
+        payment is processed.
+      </p>
+    </div>
+  </div>
+
+  <div class="form-card">
+    <form>
+      <label for="fullName">Full name</label>
+      <input id="fullName" type="text" placeholder="Yeshwanth" required>
+
+      <label for="email">Email address</label>
+      <input id="email" type="email" placeholder="you@example.com" required>
+
+      <label for="address">Shipping address</label>
+      <input id="address" type="text" placeholder="Flat / Street / City / PIN" required>
+
+      <label for="paymentMethod">Payment method</label>
+      <select id="paymentMethod">
+        <option>UPI</option>
+        <option>Credit / Debit card</option>
+        <option>Net banking</option>
+        <option>Cash on delivery</option>
+      </select>
+
+      <label for="card">Card / UPI ID (demo only)</label>
+      <input id="card" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+
+      <button type="submit" class="button button-primary" style="width:100%; margin-top:6px;">
+        Pay now (demo)
+      </button>
+
+      <p class="helper-text">
+        On submit, you can trigger a “purchase” or “payment_attempt” event via GTM
+        in your assignment. For now, this is just a static form.
+      </p>
+    </form>
+  </div>
+</div>
+
+<footer>
+  © 2025 Nova Garage · Demo storefront by Yeshwanth
+</footer>
+</body>
+</html>
