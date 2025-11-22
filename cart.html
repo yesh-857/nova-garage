@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart | Nova Garage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GA4 & GTM WILL GO HERE LATER -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-text">Nova Garage</div>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Collection</a>
+      <a href="cart.html" class="active">Cart</a>
+      <a href="payment.html">Payment</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-shell">
+  <div class="section-header" style="margin-top:24px;">
+    <div>
+      <h1 class="section-title">Your cart</h1>
+      <p class="section-sub">Review your demo order before continuing to the payment page.</p>
+    </div>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Vehicle</th>
+        <th>Type</th>
+        <th>Price</th>
+        <th>Shipping</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1982 Midnight Racer 500</td>
+        <td>Bike</td>
+        <td>₹2,10,000</td>
+        <td>₹12,000</td>
+        <td>₹2,22,000</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="helper-text" style="margin-top:10px;">
+    This cart is static for the assignment. In a real store, items would be added dynamically from the collection page.
+  </p>
+
+  <div class="hero-cta-row" style="margin-top:18px;">
+    <a href="products.html" class="button button-soft">Back to collection</a>
+    <a href="payment.html" class="button button-primary">Proceed to payment</a>
+  </div>
+</div>
+
+<footer>
+  © 2025 Nova Garage · Demo storefront by Yeshwanth
+</footer>
+</body>
+</html>
